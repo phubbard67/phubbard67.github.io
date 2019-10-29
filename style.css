@@ -42,6 +42,10 @@ ui li a:focus{
 }
 
 /*************** Content */
+img{
+    height: 300px;
+    width: 200px;
+}
 .content{
     margin: 0;
 }
@@ -100,6 +104,14 @@ h2, h3{
     padding-top: 2em;
     text-align: center;
 }
+#title a{
+    text-decoration: none;
+    color: white;
+}
+#title a:hover{
+    color: black;
+}
+
 /*************** Contact */
 .contacts{
     align-items: center;
@@ -159,22 +171,29 @@ h2, h3{
     .project-one {
         float: left;
         padding: 0;
-        margin-left: 20em;
+        margin-right: 5em;
     }
     .project-three{
         padding: 0;
         float: right;
-        margin-right: 20em;
     }
     .project-two{
         text-align: center;
         padding: 0;
     }
-    .projects div{
-        display: inline-block;
-    }
     .project-one , .project-two , .project-three {
-        height: 3em; 
+        margin: 20px;
+    }
+    #description{
+        width: 300px;
+        height: 100px;
+    }
+    #title{
+        color: white;
+    }
+    .flex-container{
+        display: flex;
+        justify-content: center;
     }
 }
 @media screen and (min-width: 700px){
