@@ -1,0 +1,207 @@
+
+/*************** HTML */
+html{
+    font-size: 100%;
+    font-family: 'Indie Flower', cursive;
+    background: rgb(55, 201, 245);
+    margin: 0;
+    padding: 0;
+
+}
+/*************** BODY */
+
+/*************** Header */
+header{
+    background: #ff5050;
+    height: 60px;
+    margin: -8px -8px 0 -8px;
+}
+header h4{
+    margin: 0 0 0 8px;
+    padding: 8px 0;
+    color: white;
+}
+ul{
+    width: 300px;
+}
+ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+ul li a:hover{
+    color: black;
+}
+ui li a:focus{
+    color: grey;
+}
+
+/*************** Content */
+.content{
+    margin: 0;
+}
+
+.projects, .about, .contacts{
+    padding: 100px;
+    margin: -2em -5em 0 -5em;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 10em;
+}
+h1, h2, h3{
+    font-family: 'Modak', cursive;
+    font-weight: lighter;
+}
+h2, h3{
+    font-size: 2em;
+}
+#back-to-top a{
+    text-decoration: none;
+    color: white;
+}
+#back-to-top a:hover{
+    color: black;
+}
+#back-to-top{
+    margin-top: 10px;
+}
+.content p{
+    font-size: 1.5em;
+}
+/*************** About */
+.about{
+    align-items: center;
+    text-align: center;
+    background: #F90;
+}
+.about p{
+    margin: 2em 8em;
+
+}
+/*************** Projects */
+.projects {
+    background: #F99;
+    text-align: center;
+    align-items: center;
+}
+.project-one img:hover, .project-two img:hover, .project-three img:hover{
+    box-shadow: 2px 2px 0.4em  black, -2px -2px 0.4em  white;
+}
+.project-one , .project-two , .project-three {
+    margin: 0;
+    padding-top: 2em;
+    text-align: center;
+}
+/*************** Contact */
+.contacts{
+    align-items: center;
+    text-align: center;
+    background: rgb(84, 207, 125);
+}
+.email_name{
+    overflow: auto;
+}
+.email_name > input{
+    padding: 1em;
+    width: 16em;
+    color: grey;
+    font-family: 'Indie Flower', cursive;
+}
+#expanding {
+    resize: both;
+    overflow: auto;
+    height: 10em;
+    width: 18em;
+}
+#email{
+    box-shadow: 2px 2px 0.4em grey, -2px -2px 0.4em grey;
+}
+#expanding:focus{
+    box-shadow: 2px 2px 0.4em grey, -2px -2px 0.4em grey;
+}
+.buttons > input {
+    width: 7em;
+    height: 3em;
+    margin: 1em;
+    background: rgb(81, 159, 223);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+}
+#submit:hover{
+    color: black;
+    background: rgb(84, 207, 125);
+}
+#reset:hover{
+    color: black;
+    background: rgb(84, 207, 125);
+}
+#submit:focus{
+    color: white;
+    background: rgb(143, 141, 141);
+}
+#reset:focus{
+    color: white;
+    background: rgb(143, 141, 141);
+}
+/*************** Screen Sizing */
+@media screen and (min-width: 1400px){
+    /************** Projects */
+    .project-one {
+        float: left;
+        padding: 0;
+        margin-left: 20em;
+    }
+    .project-three{
+        padding: 0;
+        float: right;
+        margin-right: 20em;
+    }
+    .project-two{
+        text-align: center;
+        padding: 0;
+    }
+    .projects div{
+        display: inline-block;
+    }
+    .project-one , .project-two , .project-three {
+        height: 3em; 
+    }
+}
+@media screen and (min-width: 700px){
+    header h4{
+        float: left;
+    }
+    header ul{
+        float: right;
+    }
+}
+@media screen and (max-width: 700px){
+    /************** Content */
+    h1 {
+        font-size: 3em;
+    }
+    .content p{
+        font-size: 1.2em;
+    }
+    .about p{
+        margin: 0 1em;
+    }
+    header ul{
+        text-align: center;
+        margin: 0 auto;
+    }
+    header h4{
+        text-align: center;
+        margin: 0 auto;
+    }
+}
