@@ -164,6 +164,9 @@ h2, h3{
     border: none;
     font-weight: bold;
     font-family: 'Indie Flower', cursive;
+    -webkit-appearence: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 #submit:hover{
     color: black;
