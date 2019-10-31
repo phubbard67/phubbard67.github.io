@@ -14,6 +14,9 @@ html{
 header{
     background: #ff5050;
     height: 60px;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 header h4{
     margin: 0 0 0 8px;
