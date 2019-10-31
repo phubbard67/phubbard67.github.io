@@ -1,5 +1,5 @@
 
-/*************** HTML */
+/*************** BODY */
 body{
     font-size: 100%;
     font-family: 'Indie Flower', cursive;
@@ -7,8 +7,6 @@ body{
     margin: 0;
     padding: 0;
 }
-/*************** BODY */
-
 /*************** Header */
 #header{
     background: #ff5050;
@@ -38,12 +36,13 @@ ul li a{
 }
 ul li a:hover{
     color: black;
+    text-decoration: none;
 }
 ul li a:focus{
     color: grey;
 }
 
-/*************** Content */
+/***************General Content */
 img{
     height: 300px;
     width: 200px;
@@ -182,6 +181,13 @@ p{
     color: white;
     background: rgb(143, 141, 141);
 }
+/*************** Footer */
+footer{
+    color: white;
+    font-size: 0.8em;
+    text-align: center;
+}
+/***************/
 /*************** Screen Sizing */
 @media screen and (min-width: 1400px){
     /************** Projects */
@@ -222,6 +228,9 @@ p{
     #desciption{
         visibility: visible;
     }
+    .project-one , .project-two , .project-three {
+        margin-top: 4em;
+    }
 }
 @media screen and (max-width: 700px){
     /************** Content */
@@ -248,5 +257,7 @@ p{
     #desciption{
         visibility: visible;
     }
-
+    .project-one , .project-two , .project-three {
+        margin-top: 4em;
+    }
 }
