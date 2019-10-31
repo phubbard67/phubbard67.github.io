@@ -80,6 +80,15 @@
         <p>This is the foot of the page</p>
     </footer>
 </body>
-
+<script>
+    $(document).ready(function(){
+        $(".project-one").mouseover(function(){
+            $("p").show();
+        });
+        $(".project-one").mouseout(function(){
+            $("p").hide();
+        });
+    });
+</script>
 
 </html>
