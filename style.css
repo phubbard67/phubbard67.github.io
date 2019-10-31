@@ -155,7 +155,7 @@ h2, h3{
 #expanding:focus{
     box-shadow: 2px 2px 0.4em grey, -2px -2px 0.4em grey;
 }
-.buttons > input {
+.buttons input {
     width: 7em;
     height: 3em;
     margin: 1em;
