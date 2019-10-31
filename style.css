@@ -54,6 +54,7 @@ img{
 
 .projects, .about, .contacts{
     padding-top: 100px;
+    padding-bottom: 100px;
     margin-top: -2em;
     width: 100%;
     overflow: hidden;
@@ -113,7 +114,6 @@ h2, h3{
 }
 .project-one , .project-two , .project-three {
     margin: 0;
-    padding-top: 2em;
     text-align: center;
 }
 #title a{
