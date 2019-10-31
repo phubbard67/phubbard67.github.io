@@ -102,10 +102,10 @@ h2, h3{
     align-items: center;
     text-align: center;
     background: #ff5050;
+    height: 50em;
 }
 .about p{
-    margin: 2em 8em;
-
+    margin: 2em 11em 10em 11em;
 }
 /*************** Projects */
 .projects {
