@@ -226,12 +226,12 @@ h2, h3{
         margin: 0 1em;
     }
     header ul{
- 
-        margin: 0 auto;
+        margin: auto;
     }
     header h4{
         text-align: center;
-        margin: 0 auto;
+        margin-right: 0;
+        margin-left: -1em;
     }
     #desciption{
         visibility: visible;
