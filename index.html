@@ -83,13 +83,28 @@
     </footer>
 </body>
 <script>
+
     $(document).ready(function(){
         $(".project-one").mouseover(function(){
-            $(".project-one #description").hide();          
+            $(".project-one #description").css('visibility', 'visible');          
         });
 
         $(".project-one").mouseout(function(){
-            $("p").show(); 
+            $(".project-one #description").css("visibility", "hidden");  
+        });
+        $(".project-two").mouseover(function(){
+            $(".project-two #description").css('visibility', 'visible');          
+        });
+
+        $(".project-two").mouseout(function(){
+            $(".project-two #description").css("visibility", "hidden");  
+        });
+        $(".project-three").mouseover(function(){
+            $(".project-three #description").css('visibility', 'visible');          
+        });
+
+        $(".project-three").mouseout(function(){
+            $(".project-three #description").css("visibility", "hidden");  
         });
     });
 </script>

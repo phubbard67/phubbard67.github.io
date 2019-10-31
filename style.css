@@ -80,6 +80,14 @@ h2, h3{
 .content p{
     font-size: 1.5em;
 }
+#description{
+
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
 /*************** About */
 .about{
     align-items: center;
@@ -171,7 +179,6 @@ h2, h3{
     .project-one {
         float: left;
         padding: 0;
-        margin-right: 5em;
     }
     .project-three{
         padding: 0;
@@ -180,13 +187,13 @@ h2, h3{
     .project-two{
         text-align: center;
         padding: 0;
+        margin: 0 10em;
     }
     .project-one , .project-two , .project-three {
-        margin: 20px;
+        margin-bottom: 40px;
     }
     #description{
-        width: 300px;
-        height: 100px;
+        visibility: hidden;
     }
     #title{
         color: white;
@@ -202,6 +209,9 @@ h2, h3{
     }
     header ul{
         float: right;
+    }
+    #desciption{
+        visibility: visible;
     }
 }
 @media screen and (max-width: 700px){
@@ -223,4 +233,8 @@ h2, h3{
         text-align: center;
         margin: 0 auto;
     }
+    #desciption{
+        visibility: visible;
+    }
+
 }
