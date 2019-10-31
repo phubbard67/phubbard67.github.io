@@ -79,6 +79,7 @@ h2, h3{
 }
 #back-to-top a:hover{
     color: black;
+    cursor: pointer;
 }
 #back-to-top{
     margin-top: 2em;
