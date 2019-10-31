@@ -14,7 +14,6 @@ html{
 header{
     background: #ff5050;
     height: 60px;
-    margin: -8px -8px 0 -8px;
 }
 header h4{
     margin: 0 0 0 8px;
@@ -52,7 +51,10 @@ img{
 
 .projects, .about, .contacts{
     padding: 100px;
-    margin: -2em -5em 0 -5em;
+    margin-top: -2em;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 h1 {
     align-items: center;
@@ -81,7 +83,6 @@ h2, h3{
     font-size: 1.5em;
 }
 #description{
-
     width: 200px;
     text-align: center;
     align-items: center;
