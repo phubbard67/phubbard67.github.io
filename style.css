@@ -228,9 +228,12 @@ h2, h3{
     header ul{
         margin: auto;
     }
+    header ul li{
+        margin: auto;
+    }
     header h4{
         text-align: center;
-        margin: auto;
+        margin: 0;
     }
     #desciption{
         visibility: visible;
