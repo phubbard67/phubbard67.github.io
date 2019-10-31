@@ -53,7 +53,7 @@ img{
 }
 
 .projects, .about, .contacts{
-    padding: 100px;
+    padding-top: 100px;
     margin-top: -2em;
     width: 100%;
     overflow: hidden;
