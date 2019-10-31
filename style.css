@@ -1,29 +1,29 @@
 
 /*************** HTML */
-html{
+body{
     font-size: 100%;
     font-family: 'Indie Flower', cursive;
     background: rgb(55, 201, 245);
     margin: 0;
     padding: 0;
-
 }
 /*************** BODY */
 
 /*************** Header */
-header{
+#header{
     background: #ff5050;
     height: 60px;
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
 }
-header h4{
+#header h4{
     margin: 0 0 0 8px;
     padding: 8px 0;
     color: white;
 }
 ul{
+    margin-top: 1em;
     width: 300px;
 }
 ul li{
@@ -39,7 +39,7 @@ ul li a{
 ul li a:hover{
     color: black;
 }
-ui li a:focus{
+ul li a:focus{
     color: grey;
 }
 
@@ -48,9 +48,6 @@ img{
     height: 300px;
     width: 200px;
 }
-.content{
-    margin: 0;
-}
 
 .projects, .about, .contacts{
     padding-top: 100px;
@@ -58,6 +55,8 @@ img{
     width: 100%;
     overflow: hidden;
     box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 h1 {
     align-items: center;
@@ -87,7 +86,7 @@ h2, h3{
     margin-top: 2em;
     margin-bottom: 1em;
 }
-.content p{
+p{
     font-size: 1.5em;
 }
 #description{
@@ -102,7 +101,6 @@ h2, h3{
     align-items: center;
     text-align: center;
     background: #ff5050;
-    height: 50em;
 }
 .about p{
     margin: 2em 11em 10em 11em;
@@ -230,7 +228,7 @@ h2, h3{
     h1 {
         font-size: 3em;
     }
-    .content p{
+    p{
         font-size: 1.2em;
     }
     .about p{
@@ -245,6 +243,7 @@ h2, h3{
     header h4{
         text-align: center;
         margin: 0;
+        font-size: 1em;
     }
     #desciption{
         visibility: visible;
