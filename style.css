@@ -75,6 +75,10 @@ h2, h3{
 #back-to-top a{
     text-decoration: none;
     color: white;
+    border: 1px dashed black;
+    padding: 5px;
+    background: rgb(55, 201, 245);
+    font-size: 0.8em;
 }
 #back-to-top a:hover{
     color: black;
@@ -98,7 +102,7 @@ h2, h3{
 .about{
     align-items: center;
     text-align: center;
-    background: #F90;
+    background: #ff5050;
 }
 .about p{
     margin: 2em 8em;
@@ -106,7 +110,7 @@ h2, h3{
 }
 /*************** Projects */
 .projects {
-    background: #F99;
+    background: rgb(220, 247, 102);
     text-align: center;
     align-items: center;
 }
@@ -119,10 +123,10 @@ h2, h3{
 }
 #title a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 #title a:hover{
-    color: black;
+    color: white;
 }
 
 /*************** Contact */
