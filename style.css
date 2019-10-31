@@ -78,7 +78,7 @@ h2, h3{
     border: 1px dashed black;
     padding: 5px;
     background: rgb(55, 201, 245);
-    font-size: 0.8em;
+    font-size: 1em;
 }
 #back-to-top a:hover{
     color: black;
