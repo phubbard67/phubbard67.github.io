@@ -230,8 +230,7 @@ h2, h3{
     }
     header h4{
         text-align: center;
-        margin-right: 0;
-        margin-left: -1em;
+        margin: auto;
     }
     #desciption{
         visibility: visible;
