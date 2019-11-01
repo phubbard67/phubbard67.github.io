@@ -64,7 +64,7 @@
                 <div class="email_name">
                         <input type="text" value="Name" id="Name">
                         <br></br>
-                        <input type="text" value="Email">
+                        <input type="text" value="Email" id="Email">
                         <br></br> 
                 </div>
                 <textarea id="expanding" cols="40" rows="5"></textarea>
@@ -82,7 +82,7 @@
     </footer>
 </body>
 <script>
-
+    //show/hide project descriptions
     $(document).ready(function(){
         $(".project-one").mouseover(function(){
             $(".project-one #description").css('visibility', 'visible');          
@@ -106,13 +106,24 @@
             $(".project-three #description").css("visibility", "hidden");  
         });
     });
-    
+    //end show/hide project descriptions
+
     //mail
-    document.getElementById('submit').onclick = function email(){
-        var body = document.getElementById('expanding').innerHTML;
-        var subject = documet.getElementById('Name').innerHTML;
-        window.open('mailto:phubbard@pdx.edu?subject=subject&body=body');
+    document.getElementById('submit').onclick = function (){
+        var body = document.getElementById('expanding').value;
+        var subject = document.getElementById('Name').value + "/" + document.getElementById('Email').value;
+        var string = 'mailto:phubbard@pdx.edu?subject=' + subject + '&body=' + body;
+        console.log(string);
+        console.log(subject);
+        window.open(string);
     }
+
+    document.getElementById('reset').onclick = function (){
+        document.getElementById('Name').value = 'Name';
+        document.getElementById('expanding').value = '';
+        document.getElementById('Email').value = 'Email';
+    }
+    //end mail script
 </script>
 
 </html>
