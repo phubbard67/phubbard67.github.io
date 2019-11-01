@@ -1,0 +1,117 @@
+
+@media only screen and (min-width: 700px){
+/******************************
+Contact
+*******************************/
+
+  .contact-info {
+    margin: 0 30%;
+    font-size: 1.5em;
+  }
+
+/******************************
+About
+*******************************/
+  .profile-photo {
+    float: left;
+    margin: 0 10% 0 5%;
+    max-width: 275px;
+  }
+/******************************
+Events
+******************************/
+.event-profile-photo {
+  /*float: right;*/
+  margin: 0 10% 0 5%;
+  max-width: 27em;
+  max-height: 20em;
+}
+
+/*.eventCont h3{
+  margin-right: 60%;
+  margin-left: 13%;
+}*/
+
+/*.eventCont p{
+  margin-right: 60%;
+  margin-left: 13%;
+}*/
+
+/******************************
+Nav
+*******************************/
+  .nav{
+    margin: 0 30% 20px 30%;
+  }
+
+}
+@media only screen and (max-width: 700px){
+
+
+/******************************
+contact-info
+******************************/
+
+  .contact-info{
+    font-size: 1.2em;
+  }
+  #contactCont p {
+    font-size: 1.7em;
+  }
+/*****************************
+About
+*****************************/
+  .aboutCont p {
+    font-size: 1.7em;
+  }
+/****************************
+Events
+****************************/
+.eventCont p {
+  font-size: 1.7em;
+  text-align: center;
+}
+.eventCont h3{
+  font-size: 1.8em;
+}
+
+.event-profile-photo {
+  width: 20em;
+}
+/*****************************
+nav
+*****************************/
+  .nav a {
+	   padding: 15px 1px;
+
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .nav{
+    margin: 0 35% 20px 35%;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .nav{
+    margin: 0 15% 20px 15%;
+  }
+  #menu li
+  {
+  	margin-right: .8em;
+  }
+}
+
+@media only screen and (min-width: 900px){
+  .eventCont p{
+    font-size: 2.2em;
+  }
+
+  .eventCont h3{
+    font-size: 2.5em;
+  }
+
+/******************************************
+Fourth page
+******************************************/

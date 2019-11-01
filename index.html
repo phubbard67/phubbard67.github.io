@@ -39,17 +39,20 @@
                 <div class="project-one">
                     <p id="title"><a href="https://github.com/phubbard67" target="_blank">GitHub Profile</a></p>
                     <a href="https://github.com/phubbard67" target="_blank"><img src="./img/githubProfile.PNG" alt="image of a kitten"></a>
-                    <p id="description">This is a link to several of my projects posted on GitHub</p>
+                    <br></br>
+                    <p id="description">This is a link to several of my projects posted on GitHub.</p>
                 </div>
                 <div class="project-two">
-                    <p id="title"><a href="" target="_blank">Project Two</a></p>
-                    <a href="" target="_blank"><img src="http://placekitten.com/g/200/300" alt="image of a kitten"></a>
-                    <p id="description">This is a place holder</p>
+                    <p id="title"><a href="./my vice catering co/index.html" target="_blank">Catering Website</a></p>
+                    <a href="./my vice catering co/index.html" target="_blank"><img src="./img/myvice.PNG" alt="image of a kitten"></a>
+                    <br></br>
+                    <p id="description">This is a website I made for a friend's catering company.</p>
                 </div>
                 <div class="project-three">
-                    <p id="title"><a href="" target="_blank">Project Three</a></p>
-                    <a href="" target="_blank"><img src="http://placekitten.com/200/287" alt="image of a kitten"></a>
-                    <p id="description">This is a place holder</p>
+                    <p id="title"><a href="./website/index.html" target="_blank">Band Website</a></p>
+                    <a href="./website/index.html" target="_blank"><img src="./img/wsr.PNG" alt="image of a kitten"></a>
+                    <br></br>
+                    <p id="description">This is a website I made for my old band.</p>
                 </div>
             </div>
             <p id="back-to-top"><a href="#header" >Back To Top</a></p>
@@ -59,7 +62,7 @@
             <form>
                 <h3>CONTACT</h3>
                 <div class="email_name">
-                        <input type="text" value="Name">
+                        <input type="text" value="Name" id="Name">
                         <br></br>
                         <input type="text" value="Email">
                         <br></br> 
@@ -103,6 +106,13 @@
             $(".project-three #description").css("visibility", "hidden");  
         });
     });
+    
+    //mail
+    document.getElementById('submit').onclick = function email(){
+        var body = document.getElementById('expanding').innerHTML;
+        var subject = documet.getElementById('Name').innerHTML;
+        window.open('mailto:phubbard@pdx.edu?subject=subject&body=body');
+    }
 </script>
 
 </html>

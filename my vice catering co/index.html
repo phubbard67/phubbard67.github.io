@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<!-- Web design and development by Paul Hubbard-->
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<title>My Vice Catering Co.</title>
+<!-- Hide this line for IE (needed for Firefox and others) -->
+		<![if !IE]>
+		<link rel="icon" href="http://myvicepdx.com/img/black_dot.jpg" type="image/x-icon" />
+		<![endif]>
+		<!-- This is needed for IE -->
+		<link rel="shortcut icon" href="http://myvicepdx.com/img/black_dot.jpg" type="image/ico" />
+
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+
+<link href='http://fonts.googleapis.com/css?family=Poiret+One|Roboto:400,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+
+
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/responsive.css">
+
+
+</head>
+
+
+<body>
+	<header>
+	<a href ="index.html" id="head">
+		<h1>My Vice</h1>
+		<p>Catering & Events</p>
+	</a>
+	<div class="nav">
+		<ul>
+			<div class="dropdown">
+				<button class="dropbtn" onclick="myFunction()" alt="Menu">Menu</button>
+				<div class="dropdown-content" id="myDropdown">
+          <a href="menuWedding.html">Weddings</a>
+					<a href="menuCorp.html">Corporate</a>
+					<a href="menuPrivateEvents.html">Private Events</a>
+				</div>
+		 </div>
+		 <a href="index.html"><li>Gallery</li></a>
+		 <a href="events.html"><li>Events</li></a>
+		 <a href="about.html" alt="About"><li>About</li></a>
+		 <a href="contact.html"  alt="Contact"><li>Contact</li></a>
+		 <!-- <a href="index.html" alt="Home"><li>Home</li></a> -->
+		</ul>
+</div>
+</header>
+
+
+<div class="w3-content w3-display-container" style="max-width:900px">
+	<img class="mySlides" src="img/my-vice-catering-portland-kale-salad-2.jpg" alt="Chopped Kale salad with nuts, squash, radish, and beets" style="width:100%" onclick="plusDivs(1)">
+	<img class="mySlides" src="img/my-vice-catering-portland-squash-stuffed.jpg" alt="Stuffed squash" style="width:100%" onclick="plusDivs(1)">
+	<img class="mySlides" src="img/my-vice-catering-portland-pomegranate-6.19.34-PM.jpg" alt="Cut pomegranate" style="width:100%" onclick="plusDivs(1)">
+		<img class="mySlides" src="img/my-vice-catering-portland-salami-6.19.34-PM.jpg" alt="Roled salami tower" style="width:100%" onclick="plusDivs(1)">
+  <div class="w3-center w3-section w3-large w3-text-white w3-display-bottomleft" style="width:100%">
+    <div class="w3-left w3-padding-left w3-hover-text-grey" onclick="plusDivs(-1)">&#10094;</div>
+    <div class="w3-right w3-padding-right w3-hover-text-grey" onclick="plusDivs(1)">&#10095;</div>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+    <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+		<span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+  </div>
+</div>
+<!-- <div class="photos">
+<p>Photos by Anna Mehrer</p>
+</div> -->
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+
+
+
+	<footer>
+
+		<p> &copy; My Vice Catering & Events 2017</p>
+
+	</footer>
+<script src="myScripts.js"></script>
+<!-- Web design and development by Paul Hubbard-->
+
+</body>
+
+</html>

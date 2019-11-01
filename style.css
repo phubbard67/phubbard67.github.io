@@ -72,14 +72,9 @@ h2, h3{
 }
 #back-to-top a{
     text-decoration: none;
-    color: white;
     border: 1px solid black;
     padding: 10px;
     font-size: .8em;
-}
-#back-to-top a:hover{
-    color: black;
-    cursor: pointer;
 }
 #back-to-top{
     margin-top: 2em;
@@ -94,7 +89,21 @@ p{
     align-items: center;
     margin: auto;
 }
-
+#description p{
+    padding-top: 20px;
+}
+.about #back-to-top a, .contacts #back-to-top a{
+    color: white;
+}
+.about #back-to-top a:hover, .contacts #back-to-top a:hover{
+    color: black;
+}
+.projects #back-to-top a{
+    color: black;
+}
+.projects #back-to-top a:hover{
+    color: white;
+}
 /*************** About */
 .about{
     align-items: center;
